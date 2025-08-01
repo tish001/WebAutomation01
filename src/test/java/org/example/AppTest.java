@@ -11,19 +11,19 @@ import org.testng.annotations.Test;
 public class AppTest extends DriverSetup
 
 {
-    WebDriver browser;
-    @BeforeSuite
-    //open a browser
-    public void openBrowser()
-    {
-        browser = new ChromeDriver();
-    }
-    // close browser
-    @AfterSuite
-    public void closeBrowser()
-    {
-        browser.close();
-    }
+//    WebDriver browser;
+//    @BeforeSuite
+//    //open a browser
+//    public void openBrowser()
+//    {
+//        browser = new ChromeDriver();
+//    }
+//    // close browser
+//    @AfterSuite
+//    public void closeBrowser()
+//    {
+//        browser.close();
+//    }
 @Test
     public  void webpageUrlTest() {
         browser.get("https://othoba.com/");

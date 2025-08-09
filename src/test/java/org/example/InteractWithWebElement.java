@@ -35,7 +35,6 @@ public class InteractWithWebElement extends DriverSetup {
         //     browser.get("https://rahulshettyacademy.com/AutomationPractice/");
 //
 //        WebElement radio_option_1 = browser.findElement(By.xpath("//input[@name='gender']"));
-////
 //    System.out.println("Display Status: " + radio_option_1.isDisplayed());
 //    System.out.println("Select Status: " + radio_option_1.isSelected());
 //       Thread.sleep(2000);
